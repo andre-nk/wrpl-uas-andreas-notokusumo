@@ -1,6 +1,7 @@
 "use server";
 
 import { PricingTier } from "@/app/page";
+// @ts-ignore
 import midtransClient from "midtrans-client";
 
 export async function checkout(item: PricingTier): Promise<string> {
